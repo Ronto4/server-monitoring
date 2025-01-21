@@ -1,0 +1,28 @@
+{
+    "checks": [
+        {
+            "condition": {
+                "name": "battery_level",
+                "is_charging": true
+            },
+            "actions": [
+                {
+                    "name": "print_text",
+                    "text": "Charging..."
+                }
+            ]
+        },
+        {
+            "condition": {
+                "name": "battery_level",
+                "is_charging": false
+            },
+            "actions": [
+                {
+                    "name": "print_text",
+                    "text": "Not charging..."
+                }
+            ]
+        }
+    ]
+}
