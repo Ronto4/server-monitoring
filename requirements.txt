@@ -1,1 +1,2 @@
 psutil~=6.1.1
+fritzconnection==1.14.0
